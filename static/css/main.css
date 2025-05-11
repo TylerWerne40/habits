@@ -87,6 +87,10 @@ body {
   background #f9dba0;
 }
 
+.dates__ink:not(.dates__link--current):hover {
+  background: #e5e5e5;
+}
+
 .date {
   display: flex;
   flex-direction: column;
