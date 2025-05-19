@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request, redirt, url_for
 from collections import defaultdict
 import datetime
 
-pages = Blueprint("Habits", __name__, template_folder="templates", static_folder="static")
+pages = Blueprint("habits", __name__, template_folder="templates", static_folder="static")
 
 habits = ["Test habit", "Test habit 2"]
 
