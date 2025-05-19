@@ -46,4 +46,4 @@ def add_habit():
     date = datetime.date.fromisoformat(date_str)
     completions[date].append(habit)
     
-    return redirt(url_for("index", date=date_str))
+    return redirt(url_for("habits.index", date=date_str))
