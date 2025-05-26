@@ -31,7 +31,7 @@ def index():
     return render_template("index.html", 
         habits=habits_on_date, 
         title="Habit Tracker - Home", 
-        completions = completions[selected_date],
+        completions = completions,
         selected_date = selected_date)
 
 
